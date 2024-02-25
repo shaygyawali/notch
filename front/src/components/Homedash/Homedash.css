@@ -12,7 +12,6 @@
 .meters .card{
     min-width: 200px;
     min-height: 200px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,4 +23,20 @@
     padding: 10px;
     background-color: white;
     transition: 0.3s;
+}
+
+.meters .card:nth-child(1){
+    background: linear-gradient(45deg, #D9ECEB, #dee1f2);
+}
+
+.meters .card:nth-child(2){
+    background: linear-gradient(45deg, #ecd9e5, #e6def2);
+}
+
+.meters .card:nth-child(3){
+    background: linear-gradient(45deg, #ece4d9, #f2dede);
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: green !important;
 }

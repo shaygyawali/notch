@@ -18,14 +18,14 @@ function Homedash() {
       },
       {
         "name": "Sleep",
-        "value": 8,
+        "value": 6,
         "unit": "hrs",
         "goal": 8,
         "goalUnit": "hrs"
       },
       {
         "name": "Steps",
-        "value": 10000, 
+        "value": 8400, 
         "unit": "steps",
         "goal": 10000,
         "goalUnit": "steps"
