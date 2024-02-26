@@ -10,11 +10,11 @@ function Homedash() {
   const getData = async () => {
     let temp = [
       {
-        "name": "Calories In",
-        "value": 2000,
-        "unit": "kcal",
-        "goal": 2500,
-        "goalUnit": "kcal"
+        "name": "Protein",
+        "value": 50,
+        "unit": "g",
+        "goal": 107,
+        "goalUnit": "g"
       },
       {
         "name": "Sleep",
@@ -24,11 +24,11 @@ function Homedash() {
         "goalUnit": "hrs"
       },
       {
-        "name": "Steps",
-        "value": 8400, 
-        "unit": "steps",
-        "goal": 10000,
-        "goalUnit": "steps"
+        "name": "Calories",
+        "value": 1300, 
+        "unit": "cal",
+        "goal": 1200,
+        "goalUnit": "cal"
       }
     ]
     setData(temp);
@@ -60,7 +60,7 @@ function Homedash() {
                   determinate
                   size="lg"
                   value={(item.value/item.goal)*100}
-                  variant="solid"
+                  variant="soft"
               > </CircularProgress>
               <button> Show Report <AiOutlineEye/></button>
             </div>

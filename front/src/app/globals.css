@@ -4,10 +4,18 @@
 }
 
 :root {
-    --col1: orange;
+    --col1: hotpink;
 }
 
 body{
     background-color: white;
     color: black;
+}
+
+.mainhead1{
+    margin-top: 20px;
+    -webkit-text-stroke: 1px var(--col1);
+    color: transparent;
+    font-size: 5rem;
+    text-align: center;
 }

@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Homedash />
+      <Homedash2 />
     </main>
   );
 }
